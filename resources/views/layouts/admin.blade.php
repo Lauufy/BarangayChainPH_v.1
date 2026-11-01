@@ -418,7 +418,7 @@
 
             {{-- Page content (children can use cards: bg-white rounded-2xl p-5 shadow-sm) --}}
             <main id="admin-page-content"
-                class="min-h-0 min-w-0 flex-1 overflow-y-auto bg-[#F3F6F5] px-4 pb-6 pt-1 sm:px-7 sm:pb-8">
+                class="min-h-0 min-w-0 flex-1 overflow-y-auto bg-[#F3F6F5] px-4 pb-6 pt-5 sm:px-7 sm:pb-8">
                 @yield('content')
             </main>
         </div>
